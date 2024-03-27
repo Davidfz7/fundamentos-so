@@ -1,0 +1,65 @@
+/*--------------------------------------*/
+       /*VerifyClients CSS*/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.title-container{
+    grid-column: 1/ span 2;
+    display: flex;
+    justify-content: center;
+}
+.table-container{
+    margin: 1%;
+    grid-column: 1/ span 2;
+    display: flex;
+    flex-direction: column;
+}
+.table-actions{
+    align-self: left; 
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    /* Adjusted width */
+    /* Center the table */
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Style for buttons */
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.btn-add {
+    background-color: #4CAF50;
+}
+
+.btn-modify {
+    background-color: #008CBA;
+}
+
+/*--------------------------------------*/
