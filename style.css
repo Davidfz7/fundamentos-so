@@ -127,16 +127,15 @@
 /*Footer related--------------------*/
 .footer-container{
     margin-top: 50px;
-    border: solid black;
+    border: solid rgb(255, 255, 255);
+    background-color: white;
     grid-column: 1/span 2;
 }
 
 
 footer {
-    background-color: #000000;
-    color: #fff;
+    color: black;
     text-align: center;
-    padding: 10px;
     bottom: 0;
     font-family: "Bebas Neue", sans-serif;
 }
@@ -145,8 +144,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: solid white;
-    padding-bottom: 1%;
 }
 .logo-image-foot{
     display: flex;
@@ -157,17 +154,8 @@ footer {
 .git-logo-project{
     flex: 1;
 }
-.develop-by-foot{
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: start;
 
-}
-.develop-by-foot h3{ 
-    font-weight: 100;
-}
+
 .logo-image-foot h1{
     font-weight: 100;
 }
@@ -175,12 +163,12 @@ footer {
     margin-right: 1%;
 }
 
-.g-gold{
-    color: #FFD700;
-}
 
 .footer-bottom{
+    padding-top: 1%;
     display: flex;
+    background-color: white;
+    border-top: solid black;
 }
 .footer-bottom div{
     flex: 1;
