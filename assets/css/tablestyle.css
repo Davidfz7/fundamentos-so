@@ -95,3 +95,95 @@ th {
     margin-bottom: 10px;
 }
 
+.dialog-div{
+    position: fixed;
+    top: 25%;
+    left: 40%;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dialog-popup{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: #fff; 
+}
+
+
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.form-div{
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    grid-column: 1/ span 2; 
+    width: 500px;
+    height: 400px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.form-div-user{
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.title-container{
+    margin-top: auto;
+    height: 50px;
+    grid-column: 1/ span 2;
+    display: flex;
+    justify-content: center;
+}
+
+.h3-user{
+    align-self: center;
+}
+
+form{
+    align-self: center;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    margin-bottom: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}

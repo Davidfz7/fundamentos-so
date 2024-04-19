@@ -63,7 +63,11 @@ function show_user_records()
         $ufirstsurname  = $row["ufirstsurname"];
         $usecondsurname = $row["usecondsurname"];
         echo "<tr><td>" . $id . "</td><td>" . $uusername . "</td><td>". $uname .
-            "</td><td>" . $ufirstsurname . "</td><td>" . $usecondsurname . "</td></tr>";
+            "</td><td>" . $ufirstsurname . "</td><td>" . $usecondsurname . '</td>
+            <td>
+             <a href="#" onclick="handleClick();" ><img src="../../assets/imgs/compose.png" id="img-edit"></a>             
+             <a href="#"><img src="../../assets/imgs/trash.png" id="img-delete"></a> 
+             </td></tr>';
     }
     close_db_connection($conn);
 }
