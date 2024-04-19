@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.title-container{
+    grid-column: 1/ span 2;
+    display: flex;
+    justify-content: center;
+}
+.table-container{
+    margin: 1%;
+    grid-column: 1/ span 2;
+    display: flex;
+    flex-direction: column;
+}
+.table-actions{
+    align-self: left; 
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    /* Adjusted width */
+    /* Center the table */
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Style for buttons */
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.add-client{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.modify-client{
+    background-color: #007bf0;
+    border: none;
+    color: white;
+    padding: 15px 29px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.table-client-btn{
+    background-color: #ff00dd;
+    border: none;
+    color: white;
+    padding: 15px 29px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+

@@ -203,7 +203,7 @@ footer {
 }
 
 .mainRow{
-    background-image: url('imgs/background-image-welcome.jpg');
+    background-image: url('../imgs/background-image-welcome.jpg');
     background-size: cover; 
     background-repeat: no-repeat; 
     width: 1903px;

@@ -1,3 +1,7 @@
+<?php
+require_once('../../includes/dbconfig.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +9,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>For Life S.A</title>
-    <link rel="stylesheet" href="StyleClients.css"> 
+    <link rel="stylesheet" href="../../assets/css/tablestyle.css">
 </head>
 
 <body>
@@ -15,9 +19,10 @@
         </div>
         <div class="table-container">
             <div class="table-actions">
-                <h2 class="subtitle">Clients Table</h2>
-                <button class="btn btn-add">Add Client</button>
-                <button class="btn btn-modify">Modify Client</button>
+                <h2 class="subtitle">Users Table</h2>
+                <a href="form.php" class="add-client">Add User</a>
+                <a href="#" class="modify-client">Modify User</a>      
+                <a href="../client/table.php" class="table-client-btn">Client Table</a>        
             </div>
 
             <div class="table-design">
@@ -25,25 +30,16 @@
                     <thead>
                         <tr>
                             <th>ID</th>
+                            <th>Username</th>
                             <th>Name</th>
                             <th>First Surname</th>
                             <th>Second Surname</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>John</td>
-                            <td>Doe</td>
-                            <td>Smith</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Jane</td>
-                            <td>Smith</td>
-                            <td>Doe</td>
-                        </tr>
-                        <!-- Add more rows as needed -->
+                        <?php
+                        show_user_records();
+                        ?>
                     </tbody>
                 </table>
             </div>
