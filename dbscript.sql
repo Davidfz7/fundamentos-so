@@ -29,7 +29,6 @@ DEFAULT CHARACTER SET = utf8mb4;
 
 INSERT INTO client(cname, cfirstsurname, csecondsurname, cpassword)
 VALUES
-    ('David', 'Diaz', 'Chavarria', '1234'),
     ('Jose', 'Mora', 'Lopez', '1234'),
     ('Alejandro', 'Alvarado', 'Sanchez', '1234');
 
